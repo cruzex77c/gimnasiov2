@@ -1,4 +1,4 @@
-<?php 
+<?php
 	include("login/login_success.php");
     include ('control/conexi.php');
     $link = Conectarse();
@@ -16,28 +16,28 @@
     <meta name="author" content="Marco Ortega">
 
     <title>AFILIADOS</title>
-	
+
 	<?php include('styles.php'); ?>
 </head>
 
 <body>
 
     <div id="wrapper">
-    
-        <?php include('menu.php'); ?>    
+
+        <?php include('menu.php'); ?>
 
         <div id="page-wrapper">
 
             <div class="container-fluid">
-                
+
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 class="text-center">Afiliados</h3>
+                        <h3 class="text-center">Afiliado</h3>
                         <hr><br>
                     </div>
                 </div>
-                
-                
+
+
                 <br>
 				<div class="row">
 					<div class="col-md-12">
@@ -51,7 +51,7 @@
                     </div>
                 </div>
             </div>
-        <!-- /#page-wrapper --> 
+        <!-- /#page-wrapper -->
 
         </div>
     <!-- /#wrapper -->
